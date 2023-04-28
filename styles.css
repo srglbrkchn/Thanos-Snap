@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(81, 88, 186);
+}
+
+#border {
+  background-color: rgb(20, 25, 25);
+  height: 50rem;
+  width: 50rem;
+  margin: 5rem auto 0;
+  display: flex;
+  border: 40px double black;
+  border-radius: 5px;
+  box-shadow: 10px 20px 15px rgb(55, 55, 55);
+}
+
+#img {
+  height: 40rem;
+  width: 40rem;
+  background-image: url(sunflower.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  border: 5px solid black;
+  border-radius: 2px;
+}
